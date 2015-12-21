@@ -1,28 +1,38 @@
-== README
+Sample Lesson
+=============
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+clone git repo: 
 
-Things you may want to cover:
+git clone git@github.com:jeroenhouben/rails-sample-project.git
 
-* Ruby version
+1. `cd rails-sample-project`
 
-* System dependencies
+2. `rake db:setup`
 
-* Configuration
+3. `rails server`
 
-* Database creation
+4. http://localhost:3000
 
-* Database initialization
+5. http://localhost:3000/products
 
-* How to run the test suite
+Concepts:
 
-* Services (job queues, cache servers, search engines, etc.)
+- Routes
+- Controllers & Actions
+- Models
+- Views
 
-* Deployment instructions
+Task: create a new page and show product info, such as the description
 
-* ...
+1. "invent" a URL (test the URL)
 
+2. create a route with an :id placeholder (test the URL)
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+3. create a controller action (test the URL)
+
+4. create the view (test the URL)
+
+5. fetch the model using the :id placeholder
+
+6. assign it to the view
+
